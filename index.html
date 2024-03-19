@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Catamaran:wght@100..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Madimi+One&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rosario:ital,wght@0,300..700;1,300..700&family=Suez+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Sucre Admin</title>
+
+    <link rel="stylesheet" href="css/AdminStyle.css" />
+    <script
+      src="https://kit.fontawesome.com/5a72c656a9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- navbar starts here  -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Admin Dashboard</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="#"
+                ><i class="fa-solid fa-gauge-high"></i> Dashboard
+                <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-users"></i> Users</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-id-badge"></i> Profile</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-circle-question"></i> Help</a>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#"><i class="fa-solid fa-bell"></i></a>
+            </li>
+            <li class="dropdown">
+              <a
+                href="#"
+                class="dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                ><i class="fa-regular fa-user"></i> <span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">Profile <i class="fa-solid fa-id-badge"></i></a>
+                </li>
+                <li>
+                  <a href="#">Add User <i class="fa-solid fa-users"></i></a>
+                </li>
+                <li>
+                  <a href="#">Settings <i class="fa-solid fa-gear"></i></a>
+                </li>
+                <li>
+                  <a href="#">FAQ <i class="fa-solid fa-question"></i></a>
+                </li>
+                <li>
+                  <a href="#"
+                    >Help <i class="fa-solid fa-circle-question"></i
+                  ></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+    <!-- navbar end here  -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="">Reports</a></li>
+            <li><a href="">Stats</a></li>
+            <li><a href="">Graphs</a></li>
+            <li><a href="">Users</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="">Reports</a></li>
+            <li><a href="">Revenue</a></li>
+            <li><a href="">Countries</a></li>
+            <li><a href="">Blocked List</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-md-10 main">
+          <h1 class="page-header">
+            <i class="fa-solid fa-gauge-high"></i> Dashboard
+          </h1>
+          <div class="row placeholders">
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img
+                src="images/graph.png"
+                class="img-responsive"
+                width="200"
+                height="200"
+                alt=""
+              />
+              <h4>Label</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img
+                src="images/graph.png"
+                class="img-responsive"
+                width="200"
+                height="200"
+                alt=""
+              />
+              <h4>Label</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img
+                src="images/graph.png"
+                class="img-responsive"
+                width="200"
+                height="200"
+                alt=""
+              />
+              <h4>Label</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img
+                src="images/graph.png"
+                class="img-responsive"
+                width="200"
+                height="200"
+                alt=""
+              />
+              <h4>Label</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <h2 class="row placeholders">Detailed Results</h2>
+          <hr />
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Name</th>
+                  <th>Course</th>
+                  <th>Country</th>
+                  <th>Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>234</td>
+                  <td>John</td>
+                  <td>Canva Designs</td>
+                  <td>United States</td>
+                  <td>200$</td>
+                </tr>
+                <tr>
+                  <td>235</td>
+                  <td>Samuel</td>
+                  <td>Canva Designs</td>
+                  <td>United Kingdom</td>
+                  <td>200$</td>
+                </tr>
+                <tr>
+                  <td>236</td>
+                  <td>Ben</td>
+                  <td>Canva Designs</td>
+                  <td>Dubai</td>
+                  <td>200$</td>
+                </tr>
+                <tr>
+                  <td>237</td>
+                  <td>Zion</td>
+                  <td>Canva Designs</td>
+                  <td>Nigeria</td>
+                  <td>200$</td>
+                </tr>
+                <tr>
+                  <td>238</td>
+                  <td>John</td>
+                  <td>Canva Designs</td>
+                  <td>China</td>
+                  <td>200$</td>
+                </tr>
+                <tr>
+                  <td>239</td>
+                  <td>Gibson</td>
+                  <td>Canva Designs</td>
+                  <td>India</td>
+                  <td>200$</td>
+                </tr>
+                <tr>
+                  <td>240</td>
+                  <td>Sandra</td>
+                  <td>Canva Designs</td>
+                  <td>Canada</td>
+                  <td>200$</td>
+                </tr>
+                <tr>
+                  <td>241</td>
+                  <td>Stella</td>
+                  <td>Canva Designs</td>
+                  <td>Australia</td>
+                  <td>200$</td>
+                </tr>
+                <tr>
+                  <td>242</td>
+                  <td>May</td>
+                  <td>Canva Designs</td>
+                  <td>United States</td>
+                  <td>200$</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p class="pull-right">
+        <i class="fa-solid fa-circle-up"></i> Move to top
+      </p>
+      <p>
+        &copy; 2017 Sucre, Inc.
+        <a href="#">Terms</a> &middot;
+        <a href="#">Conditions</a>
+      </p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script></script>
+  </body>
+</html>
